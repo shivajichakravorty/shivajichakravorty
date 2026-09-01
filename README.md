@@ -16,23 +16,26 @@ With a strong foundational background in technology and extensive experience man
 ### 🛠️ Tech Stack & Skills
 
 #### **Languages & Core**
-![Python](https://shields.io)
-![JavaScript](https://shields.io)
-![HTML](https://shields.io)
-![CSS](https://shields.io)
+*   ![Python](https://shields.io)
+*   ![JavaScript](https://shields.io)
+*   ![HTML](https://shields.io)
+*   ![CSS](https://shields.io)
 
-#### **Frameworks & Libraries (Backend & Frontend)**
-![Django](https://shields.io)
-![React](https://shields.io)
-![NodeJS](https://shields.io)
-![Expressjs](https://shields.io)
-![LangChain](https://shields.io)
+#### **Frameworks & AI Libraries**
+*   ![Django](https://shields.io)
+*   ![React](https://shields.io)
+*   ![Nodejs](https://shields.io)
+*   ![Express](https://shields.io)
+*   ![LangChain](https://shields.io)
 
 #### **Databases & DevOps**
-![PostgreSQL](https://shields.io)
-![MongoDB](https://shields.io)
-![SQL](https://shields.io)
-![Docker](https://shields.io)
+*   ![PostgreSQL](https://shields.io)
+*   ![MongoDB](https://shields.io)
+*   ![SQL](https://shields.io)
+*   ![Docker](https://shields.io)
+
+---
+
 
 ---
 
