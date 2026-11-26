@@ -1,73 +1,57 @@
-# Hi there, I'm Shivaji Chakravorty 👋
+# Hi, I'm Shivaji Chakravorty 👋
 
-I am a **Computer Science Engineer** passionate about building robust backend architectures, scalable full-stack applications, and integrating Artificial Intelligence to solve real-world problems. 
+### AI Full Stack Engineer & Forward Deployed Engineer (FDE)
 
-With a strong foundational background in technology and extensive experience managing engineering operations, process improvements, and team mentorship, I thrive at the intersection of clean code and impactful product implementation. I am currently focused on expanding my expertise in Full-Stack Web Development and AI engineering.
+Computer Science Engineering graduate (**Sikkim Manipal**, 2018) with **8 years of enterprise customer operations & merchant advisory experience** at **PayPal** and **247.ai**, now building production-grade, privacy-first AI systems and full-stack web architectures.
 
----
+Having spent years working directly with end-users, merchants, and cross-functional teams to diagnose operational bottlenecks, I bring a **Forward Deployed Engineering** mindset to software development—translating ambiguous real-world business and compliance pain points into resilient, end-to-end technical solutions.
 
-### 🚀 What I'm working on right now:
-*   📈 **Stock Prediction Model**: Building a predictive financial tool utilizing an **LSTM machine learning model** paired with a **Django** backend and a dynamic **React** frontend dashboard.
-*   🤖 **Multi-Agent AI Systems**: Developing advanced, multi-agent AI ecosystems for automated customer support frameworks.
-*   📊 **Server-Sent Events (SSE)**: Implementing real-time streaming data architectures and dashboard workflows using Server-Sent Events.
-
----
-
-### 🛠️ Tech Stack & Skills
-
-#### **Languages & Core**
-*   ![Python](https://shields.io)
-*   ![JavaScript](https://shields.io)
-*   ![HTML](https://shields.io)
-*   ![CSS](https://shields.io)
-
-#### **Frameworks & AI Libraries**
-*   ![Django](https://shields.io)
-*   ![React](https://shields.io)
-*   ![Nodejs](https://shields.io)
-*   ![Express](https://shields.io)
-*   ![LangChain](https://shields.io)
-
-#### **Databases & DevOps**
-*   ![PostgreSQL](https://shields.io)
-*   ![MongoDB](https://shields.io)
-*   ![SQL](https://shields.io)
-*   ![Docker](https://shields.io)
+📍 **Location:** Guwahati, India  
+💼 **LinkedIn:** [linkedin.com/in/shivaji-chakravorty-585945372](https://www.linkedin.com/in/shivaji-chakravorty-585945372/)  
+📫 **Email:** [shivaji.chakravorty5@gmail.com](mailto:shivaji.chakravorty5@gmail.com)
 
 ---
 
+## 🚀 Featured Work & Current Focus
+
+### 🛡️ [DocuShield AI](https://github.com/shivajichakravorty) *(Active Development)*
+**Privacy-First Digital Document Signing & Legal Risk Audit Platform**
+
+A distributed, multi-service platform designed to detect sensitive PII, audit contract clauses for legal risk, enable privacy-preserving document chat, and generate cryptographically verifiable signature trails.
+
+- **Polyglot Microservices Architecture:** Built a decoupled system combining a **React + TypeScript + Vite + Tailwind CSS** client, a high-throughput **Node.js + Fastify** edge gateway with **BullMQ/Redis** async workers, and a **Python + Django** AI microservice—orchestrated via multi-container **Docker** setups.
+- **Privacy-Preserving RAG & PII Masking:** Implemented hybrid vector retrieval (**PostgreSQL + `pgvector`**, local `BAAI/bge-small-en-v1.5` embeddings via `fastembed`) paired with **Microsoft Presidio**, **spaCy**, and `pdfplumber` for spatial PII bounding-box detection and reversible surrogate token masking before LLM inference (**Google Gemini 2.5 Flash**).
+- **Cryptographic Auditability & Security:** Engineered tamper-evident **SHA-256** document hashing, automated PDF audit certificate generation, JWT authentication, and endpoint rate-limiting.
+- **Automated Testing & Reliability:** Built end-to-end verification suites using **Playwright** (UI/auth flows), **Vitest** (Node gateway & cryptographic integrity), and **Pytest** (PII anonymization & contract audit pipelines).
 
 ---
 
-### 📁 Featured Projects
+## 📂 Additional Projects
 
-#### 🧱 **[Live Multi-Agent AI Support System](REPLACE_WITH_YOUR_REPO_LINK)**
-*   **Description:** A production-ready customer support platform featuring intelligent, multi-agent coordination designed for an AC company layout.
-*   **Tech Stack:** Django, Claude API, SQL.
-*   **Key Highlights:** Implemented autonomous agent reasoning to handle customer support inquiries live.
+### 🤖 Multi-Agent AI Customer Support System
+- Engineered a full-stack **Django** support automation platform orchestrating **three autonomous AI agents** via **LangChain** and the **Claude API** to classify user intent, resolve support queries, and route escalations without human intervention.
+- Built a **RAG pipeline** backed by **ChromaDB** for dynamic knowledge base context injection alongside a real-time observability dashboard streaming live agent execution metrics over **Server-Sent Events (SSE)**.
 
-#### 📈 **[Stock Prediction Dashboard](REPLACE_WITH_YOUR_REPO_LINK)**
-*   **Description:** An end-to-end full-stack platform built to analyze and project stock trends using Deep Learning.
-*   **Tech Stack:** React, Django, LSTM Model, SQLite.
-*   **Key Highlights:** Integrated an LSTM neural network backend with Server-Sent Events (SSE) to update dashboards dynamically.
-
-#### 🤖 **[RAG Application with ChromaDB](REPLACE_WITH_YOUR_REPO_LINK)**
-*   **Description:** A contextual knowledge-retrieval pipeline capable of answering queries against private data sets with minimal hallucination.
-*   **Tech Stack:** Python, LangChain, ChromaDB.
-
-#### 🍕 **[Food Delivery & E-Commerce Web Platforms](REPLACE_WITH_YOUR_REPO_LINK)**
-*   **Description:** Built robust, scalable custom e-commerce web applications detailing full cart states, checkout logic, and relational data management.
-*   **Tech Stack:** Python, Django, REST APIs, Javascript.
+### 🛒 E-Commerce & Publishing Platform
+- Developed a server-rendered commerce and content management application using **Python, Django, SQLite, HTML, and Bootstrap**, featuring product catalogs, user authentication, and integrated blogging workflows.
 
 ---
 
-### 📈 GitHub Statistics
-*(Note: These will automatically update live based on your repository activity!)*
+## 🛠️ Technical Stack
+
+| Domain | Technologies |
+| :--- | :--- |
+| **Languages** | TypeScript, JavaScript (ES6+), Python, SQL |
+| **Frontend & Streaming** | React, Vite, Tailwind CSS, Server-Sent Events (SSE), HTML5, CSS3 |
+| **Backend & APIs** | Node.js, Fastify, Express, Django, Django REST Framework, REST APIs |
+| **AI, Agents & RAG** | Google GenAI SDK (`gemini-2.5-flash`), Claude API, LangChain, Microsoft Presidio, spaCy, `fastembed`, `pgvector`, ChromaDB, `pdfplumber`, PyMuPDF |
+| **Databases & Queues** | PostgreSQL, SQLite, Redis, BullMQ |
+| **Testing & DevOps** | Docker, Playwright, Vitest, Pytest, Git, GitHub |
 
 ---
 
-### 🤝 Connect with Me
-*   📧 **Email**: shivaji.chakravorty5@gmail.com
-*   📍 **Location**: Guwahati, India
+## 💡 What Drives My Engineering
 
-*"Always building, always learning."*
+- **Customer-First System Design:** 8 years at **PayPal** and **247.ai** taught me how software fails in the real world—and how to design intuitive, fault-tolerant workflows that reduce turnaround times and earn user trust.
+- **Strict Type Safety & Modularity:** Enforcing clean separation of concerns across routes, services, custom hooks, and typed interfaces with zero tolerance for sloppy abstractions.
+- **Building in Public:** Documenting architectural trade-offs, debugging lessons, and milestone progress openly on GitHub and LinkedIn.
